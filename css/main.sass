@@ -1,0 +1,53 @@
+*
+    margin: 0px
+    padding: 0px
+    box-sizing: border-box
+body,html
+    transition: .3s
+    font-family: Arial, Helvetica, sans-serif
+    background: linear-gradient(to right, #8360c3, #2ebf91)
+.wrapper
+    max-width: 100%
+    width: 100%
+    padding: 0px 70px
+    margin: 0px auto
+.quote__content
+    background-color: #fff
+    padding: 100px 100px
+    margin-top: 100px
+    border-radius: 5px
+    border: 6px solid #64b3f4
+    text-align: center
+    p
+        font-size: 20px
+        font-weight: 500
+    h3
+        margin-top: 50px
+        font-style: italic
+.quote__btn
+    display: flex
+    button
+        padding: 22px 45px
+        background-color: red
+        border-radius: 15px
+        color: #fff
+        border: 0px none
+        cursor: pointer
+        margin: 40px auto
+        font-size: 20px
+        font-weight: 600
+        &:hover
+            opacity: .7
+        &:active
+            opacity: .5
+@media only screen and (max-width: 800px) 
+    .wrapper
+        padding: 0px 20px
+    .quote__content
+        padding: 100px 20px
+        p
+            font-size: 12px
+            text-align: center
+    .qoute__btn
+        button
+            font-size: 12px

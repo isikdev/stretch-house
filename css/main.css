@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  transition: 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 212, 255, 1) 100%, rgba(22, 132, 147, 1) 100%);
+}
+
+.wrapper {
+  max-width: 100%;
+  width: 100%;
+  padding: 0px 70px;
+  margin: 0px auto;
+}
+
+.quote__content {
+  background-color: #fff;
+  padding: 100px 100px;
+  margin-top: 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.quote__content p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.quote__content h3 {
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.quote__btn {
+  display: flex;
+}
+
+.quote__btn button {
+  padding: 22px 45px;
+  background-color: rgba(0, 212, 255, 1);
+  border-radius: 15px;
+  color: #fff;
+  border: 0px none;
+  cursor: pointer;
+  margin: 40px auto;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.quote__btn button:hover {
+  opacity: 0.7;
+}
+
+.quote__btn button:active {
+  opacity: 0.5;
+}
+
+.wrapper .logo {
+  max-width: 100px;
+  max-height: 100px;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    padding: 0px 20px;
+  }
+
+  .quote__content {
+    padding: 100px 20px;
+  }
+
+  .quote__content p {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .qoute__btn button {
+    font-size: 12px;
+  }
+}
