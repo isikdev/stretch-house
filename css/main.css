@@ -11,6 +11,8 @@ html {
   background: url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  max-height: 100vh;
 }
 
 .wrapper {
