@@ -10,10 +10,7 @@ body,
 html {
   transition: 0.3s;
   font-family: "Caviar Dreams";
-  background: url("../img/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #008C8C;
   min-height: 100vh;
   max-height: 100vh;
 }
