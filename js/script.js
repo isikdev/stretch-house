@@ -107,7 +107,7 @@ if (!localStorage.getItem("time")) {
     generateBtn.click(function () {
         $("#quote").text(Quoteitem);
         localStorage.setItem("item", Quoteitem);
-        localStorage.setItem("time", Date.now() + 86400);
+        localStorage.setItem("time", Date.now() + 28800);
         deactive();
         interval();
     });
